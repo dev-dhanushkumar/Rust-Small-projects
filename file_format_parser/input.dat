@@ -1,0 +1,6 @@
+MAGIC (4 bytes)
+Version (2 bytes, u16, little-endian)
+File Size (4 bytes, u32, little-endian)
+Chunk 1 ID (2 bytes, u16, little-endian)
+Chunk 1 Size (2 bytes, u16, little-endian)
+Chunk 1 Data (variable size, based on Chunk 1 Size)
